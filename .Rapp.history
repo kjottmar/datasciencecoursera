@@ -1,0 +1,49 @@
+x <- c("a", "b", "c", "d")
+for(i in 1:4) {print(x[i])}
+x <- matrix(1:6,2,3)
+x
+for(i in seq_len(nrow(x))) {for(j in seq_len(ncol(x))){print(x[i,j])}}
+count <- 0
+while(count<10){print(count) count <- count+1}
+while(count<10) {print(count)}
+while(count<10) {print(count)
+count <- count +1}
+z <-5
+while(z >= 3 && z <=10){print(z)}
+while(z >= 3 && z <=10){print(z)
+coin <- rbinom(1,1,0.5)
+if(coin==1) { ## random walk
+z <- z +1}
+else {z<z-1}}
+cube <- function(x,n) {}
+cube <- function(x,n) {x^3}
+cube(3)
+x <- 1:10
+x
+if(x>5) {
+x <- 0}
+if(x>5) {x <- 0}
+help
+help read.csv
+read.csv help
+?read.csv
+?col.classes
+?colClasses
+?mean
+list.files("diet_data")
+wd
+ls()
+?cor
+source("http://d396qusza40orc.cloudfront.net/rprog%2Fscripts%2Fsubmitscript1.R")
+submit()
+2
+submit()
+submit()
+submit()
+submit()
+submit()
+submit()
+submit()
+submit()
+submit()
+submit()
